@@ -1,0 +1,24 @@
+.formacao-container {
+    display: flex;
+    flex-direction: column;
+    height: 539px;
+    width: 296px;
+}
+
+@media screen and (min-width: 768px) {
+    .formacao-container {
+        align-items: center;
+        flex-direction: row;
+        height: 169px;
+        margin-top: 1rem;
+        width: 704px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formacao-container {
+        height: 375px;
+        justify-content: center;
+        width: 100%;
+    }
+}

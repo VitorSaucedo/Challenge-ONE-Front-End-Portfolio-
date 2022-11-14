@@ -1,0 +1,20 @@
+.projetos-container {
+    display: flex;
+    flex-direction: column;
+    height: 1215px;
+    width: 296px;
+}
+
+@media screen and (min-width: 768px) {
+    .projetos-container {
+        width: 704px;
+        height: 1911px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .projetos-container {
+        width: 1136px;
+        align-items: center;
+    }
+}

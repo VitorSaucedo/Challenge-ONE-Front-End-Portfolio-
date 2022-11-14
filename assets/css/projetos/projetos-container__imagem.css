@@ -1,0 +1,17 @@
+.projetos-container__imagem {
+    height: 144px;
+    width: 296px;
+}
+
+@media screen and (min-width: 768px) {
+    .projetos-container__imagem {
+        width: 704px;
+        height: 320px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .projetos-container__imagem {
+        margin-left: 10px;
+    }
+}

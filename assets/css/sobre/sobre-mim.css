@@ -1,0 +1,16 @@
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    height: 318px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre-mim {
+        height: 255px;
+        width: 90%;
+        margin-left: 5rem;
+    }
+}

@@ -1,0 +1,23 @@
+.sobre {
+    align-items: center;
+    background: #eaf2fd;
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        height: 200px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre {
+        height: 383px;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}

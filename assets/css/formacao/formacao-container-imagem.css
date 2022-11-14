@@ -1,0 +1,21 @@
+.formacao-container-imagem {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    height: 118px;
+    justify-content: center;
+    width: 296px;
+}
+
+@media screen and (min-width: 768px) {
+    .formacao-container-imagem {
+        width: 224px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formacao-container-imagem {
+        height: 286px;
+        width: 368px;
+    }
+}

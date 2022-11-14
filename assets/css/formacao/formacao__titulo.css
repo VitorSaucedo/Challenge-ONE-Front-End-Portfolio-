@@ -1,0 +1,13 @@
+.formacao__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .formacao__titulo {
+        font-size: 32px;
+        line-height: 38px;
+    }
+}

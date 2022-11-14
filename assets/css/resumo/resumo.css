@@ -1,0 +1,24 @@
+.resumo {
+    display: flex;
+    flex-direction: column;
+    height: 148px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .resumo {
+        justify-content: center;
+        margin-left: 2rem;
+        order: -1;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .resumo {
+        height: 200px;
+        margin-top: 0;
+        width: 75%;
+    }
+}

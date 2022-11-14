@@ -1,0 +1,14 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        margin: 0 auto;
+        margin-top: 2rem;
+        width: 90%;
+    }
+}

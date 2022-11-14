@@ -1,0 +1,19 @@
+.cabecalho-logo-container {
+    align-items: center;
+    display: flex;
+    height: 34px;
+    margin-left: 1rem;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho-logo-container {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho-logo-container {
+        width: 15%;
+    }
+}

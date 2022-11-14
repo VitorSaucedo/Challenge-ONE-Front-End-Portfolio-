@@ -1,0 +1,21 @@
+.botoes-container__botaoDemo {
+    align-items: center;
+    background: #2a7ae4;
+    border: none;
+    color: #ffffff;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-top: 8px;
+    width: 96px;
+}
+
+@media screen and (min-width: 1024px) {
+    .botoes-container__botaoDemo:hover {
+        cursor: pointer;
+        background: #5595e9;
+    }
+}

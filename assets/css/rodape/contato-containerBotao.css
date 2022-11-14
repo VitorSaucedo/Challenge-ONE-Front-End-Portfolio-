@@ -1,0 +1,13 @@
+.contato-containerBotao {
+    display: flex;
+    flex-direction: column;
+    height: 611px;
+    width: 90%;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato-containerBotao {
+        width: 50%;
+        margin-left: 1rem;
+    }
+}

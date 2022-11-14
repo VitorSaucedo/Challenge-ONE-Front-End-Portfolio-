@@ -1,0 +1,31 @@
+.contato-campos {
+    display: flex;
+    flex-direction: column;
+    height: 397px;
+}
+
+input {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 56px;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+textarea {
+    border: none;
+    height: 133px;
+    margin-top: 2rem;
+    resize: none;
+}
+
+@media screen and (min-width: 1024px) {
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}

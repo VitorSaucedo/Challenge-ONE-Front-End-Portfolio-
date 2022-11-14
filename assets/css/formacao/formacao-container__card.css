@@ -1,0 +1,15 @@
+.formacao-container__card {
+    display: flex;
+    flex-direction: column;
+    height: 169px;
+    margin-top: 1rem;
+    width: 296px;
+}
+
+@media screen and (min-width: 1024px) {
+    .formacao-container__card {
+        height: 347px;
+        margin-left: 1rem;
+        width: 368px;
+    }
+}

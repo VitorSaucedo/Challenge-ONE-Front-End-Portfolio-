@@ -1,0 +1,11 @@
+.contato-containerBotaoTopo__texto {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato-containerBotaoTopo__texto {
+        width: 50%;
+    }
+}

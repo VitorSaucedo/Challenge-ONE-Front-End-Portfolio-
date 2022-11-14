@@ -1,0 +1,11 @@
+.sobre-mim__titulo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre-mim__titulo {
+        font-size: 32px;
+        line-height: 38px;
+    }
+}

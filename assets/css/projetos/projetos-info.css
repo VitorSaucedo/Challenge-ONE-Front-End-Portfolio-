@@ -1,0 +1,33 @@
+.projetos-info {
+    display: flex;
+    flex-direction: column;
+    height: 91px;
+    margin-top: 1rem;
+    width: 296px;
+}
+
+@media screen and (min-width: 768px) {
+    .projetos-info {
+        width: 704px;
+        height: 91px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .projetos-info {
+        height: 112px;
+        margin-left: 26px;
+        width: 348px;
+    }
+
+    .segundo-projeto {
+        display: flex;
+        flex-direction: column;
+        height: 112px;
+        margin-top: 1rem;
+        width: 348px;
+        order: -1;
+        margin-left: 10px;
+        margin-right: 1rem;
+    }
+}

@@ -1,0 +1,18 @@
+.projetos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 950px;
+}
+
+@media screen and (min-width: 768px) {
+    .projetos {
+        height: 1500px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .projetos {
+        height: 1330px;
+    }
+}

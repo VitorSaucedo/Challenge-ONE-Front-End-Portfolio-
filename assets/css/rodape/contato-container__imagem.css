@@ -1,0 +1,9 @@
+.contato-container__imagem {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato-container__imagem {
+        display: flex;
+    }
+}

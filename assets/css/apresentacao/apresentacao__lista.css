@@ -1,0 +1,12 @@
+.apresentacao__lista {
+    display: flex;
+    height: 16px;
+    margin-top: 1rem;
+    width: 65%;
+}
+
+@media screen and (min-width: 1024px) {
+    .apresentacao__lista {
+        margin-top: 2rem;
+    }
+}

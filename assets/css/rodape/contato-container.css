@@ -1,0 +1,13 @@
+.contato-container {
+    align-items: center;
+    background: #eaf2fd;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato-container {
+        height: 788px;
+    }
+}

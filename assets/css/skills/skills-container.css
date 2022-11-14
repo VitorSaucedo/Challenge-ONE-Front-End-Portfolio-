@@ -1,0 +1,27 @@
+.skills-container {
+    display: flex;
+    height: 118px;
+    margin-top: 2rem;
+    width: 328px;
+}
+
+@media screen and (min-width: 768px) {
+    .skills-container {
+        width: 704px;
+    }
+
+    .terceiro {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .segundo {
+        display: none;
+    }
+
+    .skills-container {
+        height: 174px;
+        width: 1136px;
+    }
+}

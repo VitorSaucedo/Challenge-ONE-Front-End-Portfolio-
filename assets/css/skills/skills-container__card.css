@@ -1,0 +1,42 @@
+.skills-container__card {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 118px;
+    justify-content: flex-end;
+    width: 156px;
+}
+
+.skills-container__card:nth-child(2) {
+    margin-left: 1rem;
+}
+
+.sumir,
+.sumir-aparecer {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .skills-container__card {
+        width: 224px;
+    }
+
+    .sumir-aparecer {
+        display: flex;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sumir {
+        display: flex;
+        margin-left: 1rem;
+        height: 174px;
+        width: 176px;
+    }
+
+    .skills-container__card {
+        width: 176px;
+        height: 174px;
+    }
+}

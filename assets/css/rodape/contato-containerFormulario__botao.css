@@ -1,0 +1,18 @@
+.contato-containerFormulario__botao {
+    align-items: center;
+    background: #2a7ae4;
+    border: none;
+    color: #ffffff;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 151px;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato-containerFormulario__botao:hover {
+        cursor: pointer;
+        background: #5595e9;
+    }
+}

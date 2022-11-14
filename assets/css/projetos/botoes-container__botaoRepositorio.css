@@ -1,0 +1,19 @@
+.botoes-container__botaoRepositorio {
+    align-items: center;
+    border: 1px solid #2a7ae4;
+    color: #2a7ae4;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    justify-content: center;
+    margin-top: 8px;
+    width: 108px;
+}
+
+@media screen and (min-width: 1024px) {
+    .botoes-container__botaoRepositorio:hover {
+        cursor: pointer;
+        background: #d4e4fa;
+    }
+}

@@ -1,0 +1,28 @@
+.projetos-container__card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 251px;
+    margin-top: 1rem;
+    width: 296px;
+}
+
+.margemMaior {
+    margin-top: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+    .projetos-container__card {
+        width: 704px;
+        height: 427px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .projetos-container__card {
+        flex-direction: row;
+        height: 406px;
+        margin-top: 2rem;
+        width: 1136px;
+    }
+}

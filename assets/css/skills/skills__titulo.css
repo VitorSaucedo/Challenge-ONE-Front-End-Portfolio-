@@ -1,0 +1,16 @@
+.skills__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .skills__titulo {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .hobbies {
+        margin-top: 0;
+    }
+}
